@@ -1,0 +1,36 @@
+body {
+  background-color: #e6e6fa;
+}
+header {
+  background-image: url(img/computadora.jpg);
+  height: 28vh;
+}
+.imgYo {
+  height: 80%;
+  width: 80%;
+}
+.dark {
+  background-color: black;
+}
+
+.clarito {
+  background-color: #fffacd;
+}
+.azulSueave {
+  background-color: #6495ed;
+}
+.bordesCurvos {
+  border-radius: 5px;
+}
+
+.controlCaja {
+  height: 18vh;
+}
+
+.icono {
+  font-size: 48px;
+}
+
+.footerCaja {
+  height: 38vh;
+}

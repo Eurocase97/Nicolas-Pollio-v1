@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+     <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicolas Pollio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/07397e1e91.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  
+  <body>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#aboutme">about me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#skills">skills</a>
+                </li>
+                <li>
+                  <a class="nav-link text-white" href="#frase">Frase</a>
+      
+                </li>
+              </ul>
+              <a href="#registro" class="btn btn-danger text-white badge-pill">Registrate</a>
+           
+            </div>
+          </nav>
+    <header class="container-fluid">
+      <div class="row text-center">
+        <h1 class="col-12">Nicolas Pollio</h1>
+        <h2 class="col-12">Developt</h2>
+      </div>
+    </header>
+
+    <section class="container">
+      <h2 class="text-center mt-4 mb-5" id="aboutme">About me</h2>
+      <div class="row">
+        <div class="col-xl-4 col-lg-6 col-xs-12">
+          <img src="img/yo.jpg" class="imgYo" />
+        </div>
+        <div
+          class="col-xl-8 col-lg-6 col-xs-12 azulSueave bordesCurvos controlCaja"
+        >
+          <h3>Mi experiencia</h3>
+          <p>
+            In the last years i've worked in java and javascrpi i have experince
+            with some frameworks like react, spring boots and larvarel. i was
+            tech lead in some companys
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="text-center" id="skills">Skills</h2>
+      <div class="row text-center">
+        <div class="col-4 icono"><i class="fab fa-js"></i></div>
+        <div class="col-4 icono"><i class="fab fa-java"></i></div>
+        <div class="col-4 icono"><i class="fab fa-git"></i></div>
+        <div class="col-4 icono"><i class="fas fa-database"></i></div>
+        <div class="col-4 icono"><i class="fab fa-bootstrap"></i></div>
+        <div class="col-4 icono"><i class="fab fa-react"></i></div>
+      </div>
+    </section>
+
+    <div class="container-fluid clarito mt-3">
+      <h3 class="text-center" id="frase">
+        “Si la gente no piensa que las matemáticas son simples, es solo porque
+        no se dan cuenta de lo complicada que es la vida.”
+      </h3>
+    </div>
+
+    <section class="container mt-3">
+      <h2 class="text-center" id="registro">Contacto</h2>
+      <form method="POST" action="#">
+        <div class="form-group">
+          <label for="nombre"
+            >Nombre completo <span class="text-danger">*</span></label
+          >
+          <input
+            id="nombre"
+            type="text"
+            class="form-control"
+            placeholder="Nicolas Pollio"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email<span class="text-danger">*</span></label>
+          <input
+            id="email"
+            type="email"
+            class="form-control"
+            placeholder="ejemplo@gmail.com"
+          />
+        </div>
+        <div class="form-group">
+            <label for="comentario">Comentario<span class="text-danger">*</label>
+             <input
+             id="comentario"
+             type="text"
+             class="form-control"
+             placeholder="comentario"
+             /> 
+        </div>
+        <button class="btn btn-outline-secondary btn-block">Enviar 📦</button>
+      </form>
+    </section>
+    
+    <footer id="container-fluid footer footerCaja">
+        <div class="row dark mt-5">
+            <div class="col-4 text-white">
+                <p>Tel: 22235982248</p>
+                <p>emil: nicolaspollio97@gmail</p>
+                <p>adress: calle falsa 123</p>
+            </div>
+            <div class="col-4">
+                <a href="https://www.linkedin.com/in/nicolas-pollio-329b01122/" class="icono  p-3"> <i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/nicolas-pollio-329b01122/" class="icono"> <i class="fab fa-github-square"></i></i></a>
+            </div>
+            <div class="col-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201169.28269925909!2d-57.74061839594439!3d-38.01748355645357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1599350799830!5m2!1ses-419!2sar" width="100%"
+                height="200px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </footer>
+
+  </body>
+</html>
